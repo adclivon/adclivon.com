@@ -179,7 +179,14 @@ export const Footer: React.FC<FooterProps> = ({
             <ul className="space-y-2.5 text-xs">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />
-                <span>{BRAND_CONFIG.contactEmail}</span>
+                <span>
+                  <a
+                    href={`mailto:${BRAND_CONFIG.contactEmail}`}
+                    className="hover:text-blue-400 transition-colors"
+                  >
+                    {BRAND_CONFIG.contactEmail}
+                  </a>
+                </span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="w-4 h-4 text-blue-400 shrink-0 mt-0.5" />

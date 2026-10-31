@@ -14,7 +14,7 @@ export const BRAND_CONFIG = {
     "We help businesses improve organic visibility, strengthen backlink profiles, and attract qualified traffic through data-driven SEO, guest posting, and link insertion.",
   
   // Contact information
-  contactEmail: "inquiries@adclivon.com",
+  contactEmail: "mur283gb@gmail.com",
   editorialEmail: "editorial@adclivon.com",
   phone: "+1 (800) 555-0199",
   address: "100 Montgomery Street, Suite 1400, San Francisco, CA 94104",
