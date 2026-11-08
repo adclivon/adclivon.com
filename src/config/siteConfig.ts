@@ -16,8 +16,8 @@ export const BRAND_CONFIG = {
   // Contact information
   contactEmail: "mur283gb@gmail.com",
   editorialEmail: "editorial@adclivon.com",
-  phone: "+1 (800) 555-0199",
-  address: "100 Montgomery Street, Suite 1400, San Francisco, CA 94104",
+  phone: "+923427199209",
+  address: "Defence View, Street No. 18, Jaranwala",
   workingHours: "Monday – Friday: 08:00 – 18:00 EST / GMT / AEST (Global Coverage)",
   
   // Primary target international markets

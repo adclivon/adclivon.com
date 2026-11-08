@@ -20,7 +20,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, onNavigate }) =
         <li>
           <button
             onClick={() => onNavigate("/")}
-            className="hover:text-blue-400 transition-colors cursor-pointer"
+            className="hover:text-cyan-400 transition-colors cursor-pointer"
           >
             Home
           </button>
@@ -39,7 +39,7 @@ export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, onNavigate }) =
               ) : (
                 <button
                   onClick={() => onNavigate(item.path!)}
-                  className="hover:text-blue-400 transition-colors cursor-pointer truncate max-w-xs"
+                  className="hover:text-cyan-400 transition-colors cursor-pointer truncate max-w-xs"
                 >
                   {item.label}
                 </button>
